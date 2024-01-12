@@ -1,0 +1,12 @@
+<section class="flex items-center justify-center h-full bg-white px-2 py-8 md:px-0">
+  <div class="container max-w-xl mx-auto px-8 text-center md:text-left">
+      <h1 class="text-4xl font-extrabold text-gray-900 sm:text-5xl">
+          Welcome to my Angular Todo App!
+      </h1>
+      <p class="mt-8 text-gray-500 text-base sm:text-xl">This crazy simple todo tool will double you productivity!*</p>
+      <a (click)="navigateToNewComponent()" routerLink="todos" class="mt-8 inline-block px-6 py-3 text-lg text-white bg-indigo-600 rounded-md hover:bg-indigo-700 cursor-pointer">
+          Try it!
+      </a>
+  </div>
+  <p class="absolute bottom-0 left-0 text-xs">Just do two times more todos!</p>
+</section>
